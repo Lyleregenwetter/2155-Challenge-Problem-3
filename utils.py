@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 import matplotlib.pyplot as plt
-from torchmetrics import StructuralSimilarityIndexMeasure
+from torchmetrics.image import StructuralSimilarityIndexMeasure
 import torch
 
 def load_data(split="train"):
